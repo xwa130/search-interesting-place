@@ -9,7 +9,7 @@
       <v-list dense>
         <v-list-tile
           target='_blank'
-          href='https://www.github.com/xwa130'
+          href='https://www.github.com/xwa130/search-interesting-place'
           @click.stop='drawer = !drawer'>
           <v-list-tile-action>
             <v-icon>home</v-icon>
