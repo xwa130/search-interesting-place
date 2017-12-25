@@ -10,7 +10,7 @@ import './node_modules/vuetify/dist/vuetify.min.css';
 Vue.use(Vuetify);
 Vue.use(VueGoogleMaps, {
   load: {
-    key: API_KEY,
+    key: process.env.API_KEY || API_KEY,
     libraries: 'places'
   }
 });
