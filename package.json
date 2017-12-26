@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./server.js",
+    "start": "node -r dotenv/config ./server.js",
     "build": "node ./node_modules/webpack/bin/webpack.js",
     "postinstall": "node ./node_modules/webpack/bin/webpack.js"
   },

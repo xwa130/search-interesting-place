@@ -1,4 +1,3 @@
-require('dotenv').config();
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import * as VueGoogleMaps from 'vue2-google-maps';
