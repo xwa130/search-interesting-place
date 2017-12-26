@@ -12,7 +12,7 @@
           href='https://www.github.com/xwa130/search-interesting-place'
           @click.stop='drawer = !drawer'>
           <v-list-tile-action>
-            <v-icon>home</v-icon> {{ process.env.API_KEY }}
+            <v-icon>home</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>Source Code</v-list-tile-title>
@@ -49,6 +49,9 @@
       return {
         drawer: true
       }
+    },
+    mounted() {
+      console.log('api', process.env.API_KEY);
     }
   }
 </script>
