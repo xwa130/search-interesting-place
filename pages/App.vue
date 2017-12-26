@@ -12,7 +12,7 @@
           href='https://www.github.com/xwa130/search-interesting-place'
           @click.stop='drawer = !drawer'>
           <v-list-tile-action>
-            <v-icon>home</v-icon>
+            <v-icon>home</v-icon> {{ process.env.API_KEY }}
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>Source Code</v-list-tile-title>
