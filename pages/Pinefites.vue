@@ -46,7 +46,7 @@
           id: 'ChIJJyJ6hcB5hlQRW7Uwbj9sUAA'
         }],
         places: [{
-          name: 'Zenefits',
+          name: 'Simon Fraser University',
           rating: 5,
           id: 'ChIJJyJ6hcB5hlQRW7Uwbj9sUAA'
         }]
@@ -78,7 +78,7 @@
       },
       mapRequest() {
         this.showWindow = null;
-        const zenefits = new google.maps.LatLng(49.2765926, -123.12160260000002);
+        const zenefits = new google.maps.LatLng(49.2780937, -122.91988329999998);
         const request = {
           location: zenefits,
           radius: '1000',
