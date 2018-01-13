@@ -37,7 +37,7 @@
     },
     data () {
       return {
-        center: {lat: 49.2765926, lng: -123.12160260000002},
+        center: {lat: 49.2780937, lng: -122.91988329999998},
         infoContent: '',
         infoWindowPos: {
           lat: 0,
