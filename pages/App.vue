@@ -25,7 +25,7 @@
       <v-spacer></v-spacer>
       <v-toolbar-items class='hidden-sm-and-down'>
         <v-btn flat to='pinefites'>
-            Pinefites
+            Interests
         </v-btn>
         <v-btn flat to='favorites'>
             Favorites
@@ -38,7 +38,7 @@
       </v-container>
     </main>
     <v-footer class="indigo" fixed>
-      <span class="white--text">2017 Zenefits</span>
+      <span class="white--text">2018@Xinyi</span>
     </v-footer>
   </v-app>
 </template>
