@@ -49,9 +49,6 @@
       return {
         drawer: true
       }
-    },
-    mounted() {
-      console.log('api', process.env.API_KEY);
     }
   }
 </script>
