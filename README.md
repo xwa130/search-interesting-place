@@ -12,9 +12,5 @@
 In this app, I used `vue` as my front end framework, `vuex` as a store, `vue-router` as a front end router, `vuetify` as my style framework, `vue2-google-maps` as my tool to leverage google-maps in vue and `webpack/webpack-dev-server` as my compiler. 
 
 # Usage
-Run the following commands: 
-```
-git clone git@github.com:xwa130/search-interesting-place.git && cd search-interesting-place && npm i
-```
-Then create `.env.js` file to save your own `GOOGLE-API` key similar to what it does in `.env.example.js`. In the end, run `npm start`.
+Go to the [website](https://search-interesting-places.herokuapp.com/).
 Viola~
