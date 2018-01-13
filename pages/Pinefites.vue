@@ -39,16 +39,16 @@
         showWindow: null,
         markers: [{
           position: {
-            lat: 49.2765926,
-            lng: -123.12160260000002
+            lat: 49.2780937,
+            lng: -122.91988329999998
           },
-          infoText: 'Zenefits',
-          id: '2fc20710748b1da6d9fcf9eae7281500c7226688'
+          infoText: 'Simon Fraser University',
+          id: 'ChIJJyJ6hcB5hlQRW7Uwbj9sUAA'
         }],
         places: [{
           name: 'Zenefits',
           rating: 5,
-          id: '2fc20710748b1da6d9fcf9eae7281500c7226688'
+          id: 'ChIJJyJ6hcB5hlQRW7Uwbj9sUAA'
         }]
       }
     },
