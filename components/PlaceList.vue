@@ -27,7 +27,7 @@
               </v-icon>
             </v-list-tile-action>
           </v-list-tile>
-          <v-divider v-if='index + 1 < places.length' :key='item.id'></v-divider>
+          <v-divider v-if='index + 1 < places.length'></v-divider>
         </template>
       </v-list>
     </v-card>
