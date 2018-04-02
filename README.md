@@ -1,16 +1,21 @@
+A webapp which shows and searches webapps around a certain location.
+
 # Features
-- When user searches
-  - place addresses are highlighted in map
-  - place information are displayed in list
-- When user clicks the marker, the name of the place is displayed in an info box
-- When user clicks the list panel, the address is centered in map and the info box is poped up
-- When user clicks the star in the list panel, this place is saved as a favorite place. User could check it in `FAVORITES` page.
-- When user clicks the star again, the favorite status is cancelled. 
-- When user clicks the menu in the top left, user could see the source code.
+* The searched address will be marked on the map.
+* Detailed information of the search result will be display on the list beside the map.
+* Place names will be display in an info box when clicked.
+* When the list panel is clicked, the searched address will be centered in map and the info box will pop up.
+* An address is added to **Favourite** when the star button is clicked.
+* Removing a location from **Favourite**
+* Source code is shown when the menu on the top left is clicked.
 
 # Technical highlight
-In this app, I used `vue` as my front end framework, `vuex` as a store, `vue-router` as a front end router, `vuetify` as my style framework, `vue2-google-maps` as my tool to leverage google-maps in vue and `webpack/webpack-dev-server` as my compiler. 
+* Front end frame work: [Vue](https://cn.vuejs.org/index.html)
+* Front end router: [vue-router](https://router.vuejs.org/en/)
+* Style framework: [vuetify](https://vuetifyjs.com/zh-Hans/)
+* Leveraging google maps with vue: [vue2-google-maps](https://www.npmjs.com/package/vue2-google-maps)
+* Compiler: [Webpack](https://webpack.js.org/)
 
 # Usage
-Go to the [website](https://search-interesting-places.herokuapp.com/).
-Viola~
+The app is deployed at [website](https://search-interesting-places.herokuapp.com/).
+Voila~
